@@ -1,0 +1,136 @@
+# Kannada Phrases - Complete Collection
+
+## Greetings & Essentials
+
+| English Phrase | Kannada Phrase | Romanized Kannada (Pronunciation Aid) |
+|---|---|---|
+| Hello / Namaste | ನಮಸ್ಕಾರ | Namaskāra |
+| How are you? | ಹೇಗಿದ್ದೀರಾ? | Hēgiddīrā? |
+| I am fine. | ನಾನು ಚೆನ್ನಾಗಿದ್ದೇನೆ. | Nānu cennāgiddēne. |
+| I am fine/good. | ಚೆನ್ನಾಗಿದ್ದೀನಿ. | Cennāgiddīni. |
+| Thank you. | ಧನ್ಯವಾದಗಳು. | Dhan'yavādagaḷu. |
+| Please. | ದಯವಿಟ್ಟು. | Dayaviṭṭu. |
+| Yes. | ಹೌದು. | Haudu. |
+| No. | ಇಲ್ಲ. | Illa. |
+| Excuse me (to get attention). | ಕ್ಷಮಿಸಿ. | Kṣamisi. |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+| Excuse me. / Sorry. | ಕ್ಷಮಿಸಿ. | Kṣamisi. |
+| What is your name? | ನಿಮ್ಮ ಹೆಸರು ಏನು? | Nimma hesaru ēnu? |
+| My name is... | ನನ್ನ ಹೆಸರು... | Nanna hesaru... |
+| Good morning. | ಶುಭೋದಯ. | Śubhōdaya. |
+| Good night. | ಶುಭ ರಾತ್ರಿ. | Śubha rātri. |
+
+## Common Requests & Needs
+
+| English Phrase | Kannada Phrase | Romanized Kannada (Pronunciation Aid) |
+|---|---|---|
+| I need water. | ನನಗೆ ನೀರು ಬೇಕು. | Nanage nīru bēku. |
+| I want this. | ನನಗೆ ಇದು ಬೇಕು. | Nanage idu bēku. |
+| I don't want. | ನನಗೆ ಬೇಡ. | Nanage bēḍa. |
+| I don't want (it)/No need. | ಬೇಡ. | Bēḍa. |
+| Stop. | ನಿಲ್ಲಿಸು. | Nillisu. |
+| Stop. | ನಿಲ್ಲಿಸಿ. | Nillisi. |
+| Come here. | ಇಲ್ಲಿಗೆ ಬನ್ನಿ. | Illige banni. |
+| Come. | ಬನ್ನಿ. | Banni. |
+| Go. | ಹೋಗಿ. | Hōgi. |
+| Go slowly. | ನಿಧಾನವಾಗಿ ಹೋಗಿ. | Nidhānavāgi hōgi. |
+| Please come inside. | ದಯವಿಟ್ಟು ಒಳಗೆ ಬನ್ನಿ. | Dayaviṭṭu oḷage banni. |
+| Come inside/Please come in. | ಒಳಗೆ ಬನ್ನಿ. | Oḷage banni. |
+| Go inside. (Informal command) | ಒಳಗೆ ಹೋಗು. | Oḷage hōgu. |
+| Can you help me? | ನೀವು ನನಗೆ ಸಹಾಯ ಮಾಡಬಲ್ಲೀರಾ? | Nīvu nanage sahāya māḍaballīrā? |
+| Do you know English? | ನಿಮಗೆ ಇಂಗ್ಲಿಷ್ ಗೊತ್ತಾ? | Nimage English gottā? |
+| Do you speak English? | ನಿಮಗೆ ಇಂಗ್ಲಿಷ್ ಗೊತ್ತಾ? | Nimage English gottā? |
+| Where is the washroom? | ಶೌಚಾಲಯ ಎಲ್ಲಿದೆ? | Śaucālaya ellide? |
+| Wait a minute. | ಒಂದು ನಿಮಿಷ ಇರಿ. | Ondu nimiṣa iri. |
+| One minute. | ಒಂದು ನಿಮಿಷ. | Ondu nimiṣa. |
+| Please sit. | ದಯವಿಟ್ಟು ಕೂತ್ಕೊಳ್ಳಿ. | Dayaviṭṭu kūtkoḷḷi. |
+| Come fast/Come quickly. | ಬೇಗ ಬನ್ನಿ. | Bēga banni. |
+| Do you want water? | ನೀರು ಬೇಕಾ? | Nīru bēkā? |
+| A little more. | ಇನ್ನೂ ಸ್ವಲ್ಪ. | Innu svaḷpa. |
+| Look here/See here. | ಇಲ್ಲಿ ನೋಡಿ. | Illi nōḍi. |
+| Please speak slowly. | ನಿಧಾನವಾಗಿ ಮಾತಾಡಿ. | Nidhānavāgi mātāḍi. |
+| Say it once more/Please repeat. | ಮತ್ತೊಮ್ಮೆ ಹೇಳಿ. | Mattomme hēḷi. |
+| Take that/Take it. | ಅದನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ. | Adannu tegedukoḷḷi. |
+
+## Time & Action
+
+| English Phrase | Kannada Phrase | Romanized Kannada (Pronunciation Aid) |
+|---|---|---|
+| Now. | ಈಗ. | Īga. |
+| Later. | ಆಮೇಲೆ. | Āmēle. |
+| Tomorrow. | ನಾಳೆ. | Nāḷe. |
+| Today. | ಇಂದು / ಇವತ್ತು. | Indu / Ivattu. |
+| I will come tomorrow. | ನಾಳೆ ಬರುತೇನೆ. | Nāḷe barutēne. |
+| See you tomorrow. | ನಾಳೆ ಸಿಗೋಣ. | Nāḷe sigōṇa. |
+| What time is it? | ಸಮಯ ಎಷ್ಟು? | Samaya eṣṭu? |
+| What is the time? | ಸಮಯ ಎಷ್ಟಾಗಿದೆ? | Samaya eṣṭāgide? |
+| What are you doing? | ನೀನು ಏನು ಮಾಡುತ್ತಿದ್ದೀಯ? | Nīnu ēnu māḍuttiddīya? |
+| What are you doing? (Formal) | ಏನು ಮಾಡುತ್ತಿದ್ದೀರಾ? | Ēnu māḍuttiddīrā? |
+| I am eating. | ನಾನು ತಿನ್ನುತ್ತಿದ್ದೇನೆ. | Nānu tinnuttiddēne. |
+| I don't understand. | ನನಗೆ ಅರ್ಥವಾಗುತ್ತಿಲ್ಲ. | Nanage arthavāguttilla. |
+| I know. | ನನಗೆ ಗೊತ್ತು. | Nanage gōttu. |
+| I know. | ನನಗೆ ಗೊತ್ತಿದೆ. | Nanage gottide. |
+| I don't know. | ನನಗೆ ಗೊತ್ತಿಲ್ಲ. | Nanage gottilla. |
+| I don't know/I'm unaware. | ತಿಳಿದಿಲ್ಲ. | Tiḷidilla. |
+| What is the day today? | ಇವತ್ತು ಏನು ದಿನ? | Ivattu ēnu dina? |
+| Let us go. | ನಾವು ಹೋಗೋಣ. | Nāvu hōgōṇa. |
+| We will come again. | ನಾವು ಮತ್ತೆ ಬರೋಣ. | Nāvu matte barōṇa. |
+
+## Shopping & Directions
+
+| English Phrase | Kannada Phrase | Romanized Kannada (Pronunciation Aid) |
+|---|---|---|
+| What is the price for this? | ಇದಕೆ ಎಷ್ಟು? | Idakke eshtu? |
+| How much? / What is the price? | ಎಷ್ಟು? | Eṣṭu? |
+| What is the price? | ಬೆಲೆ ಎಷ್ಟು? | Bele eṣṭu? |
+| Is it near? | ಇದು ಹತ್ತಿರ ಇದೆಯೇ? | Idu hattira idiyē? |
+| It is far. | ಅದು ದೂರ ಇದೆ. | Adu dūra ide. |
+| Where is the bus stop? | ಬಸ್ ನಿಲ್ದಾಣ ಎಲ್ಲಿದೆ? | Bus nildāṇa ellide? |
+| Turn left. | ಎಡಕ್ಕೆ ತಿರುಗಿ. | Eḍakke tirugi. |
+| Turn right. | ಬಲಕ್ಕೆ ತಿರುಗಿ. | Balakke tirugi. |
+| Go straight. | ನೇರವಾಗಿ ಹೋಗಿ. | Nēravāgi hōgi. |
+| Very expensive! | ತುಂಬಾ ದುಬಾರಿ! | Tumba dubāri! |
+| Give me the bill. | ಬಿಲ್ ಕೊಡಿ. | Bil koḍi. |
+| Where? | ಎಲ್ಲಿ? | Elli? |
+| Where is the house? | ಮನೆ ಎಲ್ಲಿದೆ? | Mane ellide? |
+| Is this that? | ಇದೇನಾ ಅದು? | Idēnā adu? |
+| Which one is that? | ಅದು ಯಾವುದು? | Adu yāvudu? |
+| There is nothing here. | ಇಲ್ಲಿ ಏನು ಇಲ್ಲ. | Illi ēnu illa. |
+| The seat is empty. | ಸೀಟ್ ಖಾಲಿ ಇದೆ. | Sīṭ khāli ide. |
+| Okay/Done, thank you. | ಆಯ್ತು, ಧನ್ಯವಾದ. | Āyitu, dhan'yavāda. |
+
+## Feelings & Learning
+
+| English Phrase | Kannada Phrase | Romanized Kannada (Pronunciation Aid) |
+|---|---|---|
+| I am happy. | ನನಗೆ ಸಂತೋಷವಾಗಿದೆ. | Nanage santōṣavāgide. |
+| I am hungry. | ನನಗೆ ಹಸಿವಾಗಿದೆ. | Nanage hasivāgide. |
+| I am thirsty. | ನನಗೆ ಬಾಯಾರಿಕೆ ಆಗಿದೆ. | Nanage bāyārike āgide. |
+| I'm learning Kannada. | ನಾನು ಕನ್ನಡ ಕಲಿಯುತ್ತಿದ್ದೇನೆ. | Nānu kannaḍa kaliyuttiddēne. |
+| It is very tasty. | ತುಂಬಾ ರುಚಿಯಾಗಿದೆ. | Tumba ruciyāgide. |
+| The food is tasty. | ಊಟ ರುಚಿಯಾಗಿದೆ. | Ūṭa ruciyāgide. |
+| I like it. | ನನಗೆ ಅದು ಇಷ್ಟ. | Nanage adu iṣṭa. |
+| I like this. | ನನಗೆ ಇದು ಇಷ್ಟ. | Nanage idu iṣṭa. |
+| I like (it) very much. | ತುಂಬಾ ಇಷ್ಟ. | Tumbā iṣṭa. |
+| I don't like it. | ನನಗೆ ಅದು ಇಷ್ಟವಿಲ್ಲ. | Nanage adu iṣṭavilla. |
+| I don't like this. | ನನಗೆ ಇದು ಇಷ್ಟವಿಲ್ಲ. | Nanage idu iṣṭavilla. |
+| Be careful. | ಜಾಗರೂಕರಾಗಿರಿ. | Jāgarūkarāgiri. |
+| Very good. | ತುಂಬಾ ಒಳ್ಳೆಯದು. | Tumba oḷḷeyadu. |
+| It is very good. | ತುಂಬಾ ಒಳ್ಳೆಯದು. | Tumba oḷḷeyadu. |
+| What happened? | ಏನಾಯಿತು? | Ēnāyitu? |
+| Right / Correct. | ಸರಿ. | Sari. |
+| This is not correct/This is not right. | ಇದು ಸರಿ ಇಲ್ಲ. | Idu sari illa. |
+| It is correct/It is fine/It is okay. | ಸರಿಯಾಗಿದೆ. | Sariyāgide. |
+| That is the truth. | ಅದು ಸತ್ಯ. | Adu satya. |
+| Who are you? (Formal) | ಯಾರು ನೀವು? | Yāru nīvu? |
+
+## Farewell
+
+| English Phrase | Kannada Phrase | Romanized Kannada (Pronunciation Aid) |
+|---|---|---|
+| See you later. | ಮತ್ತೆ ಸಿಗೋಣ. | Matte sigōṇa. |
+
+---
+
+**Total Phrases: 90+**
+**Language: Kannada (ಕನ್ನಡ)**
+**Purpose: Learning essential Kannada phrases for daily conversation**

@@ -1,0 +1,168 @@
+.invite-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(2, 6, 23, 0.7);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.invite-card {
+  width: 100%;
+  max-width: 520px;
+  position: relative;
+  background: #0f172a;
+  border-radius: 24px;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  box-shadow: 0 30px 80px rgba(2, 6, 23, 0.6);
+  padding: 28px;
+  color: #cdd6f4;
+}
+
+.invite-card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.invite-card-header h2 {
+  margin: 4px 0 0;
+  font-size: 26px;
+}
+
+.invite-subtitle {
+  margin: 8px 0 0;
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.invite-eyebrow {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.24em;
+  font-size: 11px;
+  color: #6366f1;
+}
+
+.close-btn {
+  background: rgba(148, 163, 184, 0.15);
+  border: none;
+  color: #cbd5f5;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 14px; /* keep inside the card */
+  right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.45);
+}
+
+.close-btn:hover {
+  background: rgba(148, 163, 184, 0.3);
+}
+
+.invite-share-card {
+  margin-top: 28px;
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  border-radius: 18px;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: rgba(99, 102, 241, 0.06);
+}
+
+.invite-label {
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #94a3b8;
+  margin-bottom: 6px;
+}
+
+.invite-link {
+  margin: 0;
+  font-size: 14px;
+  color: #e2e8f0;
+  word-break: break-all;
+}
+
+.invite-form {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.invite-form textarea {
+  width: 100%;
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: 12px;
+  padding: 12px;
+  color: #cdd6f4;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.invite-form textarea:focus {
+  outline: none;
+  border-color: rgba(99, 102, 241, 0.6);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+.invite-label span {
+  color: #64748b;
+  font-weight: 400;
+}
+
+.invite-status {
+  margin: 0;
+  font-size: 13px;
+  padding: 10px 14px;
+  border-radius: 12px;
+}
+
+.invite-status.success {
+  background: rgba(166, 227, 161, 0.1);
+  color: #a6e3a1;
+}
+
+.invite-status.error {
+  background: rgba(248, 113, 113, 0.12);
+  color: #fca5a5;
+}
+
+.invite-status.pending {
+  background: rgba(251, 191, 36, 0.14);
+  color: #fde68a;
+}
+
+.invite-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+body.theme-light .invite-card {
+  background: #ffffff;
+  color: #0f172a;
+}
+
+body.theme-light .invite-link {
+  color: #0f172a;
+}
+
+body.theme-light .invite-form textarea {
+  background: #f8fafc;
+  color: #0f172a;
+}

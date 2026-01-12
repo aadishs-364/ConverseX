@@ -1,0 +1,24 @@
+<svg width="250" height="80" viewBox="0 0 250 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stylized "converseX" text with swoosh -->
+  <defs>
+    <style>
+      .logo-text {
+        font-family: 'Brush Script MT', cursive, sans-serif;
+        font-size: 48px;
+        font-weight: bold;
+        font-style: italic;
+        fill: #cdd6f4;
+      }
+    </style>
+  </defs>
+  
+  <!-- Main text "converseX" -->
+  <text x="10" y="50" class="logo-text">converseX</text>
+  
+  <!-- Swoosh/underline -->
+  <path d="M 5 60 Q 125 75 245 15" stroke="#89b4fa" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Registered trademark symbol -->
+  <circle cx="238" cy="18" r="8" stroke="#cdd6f4" stroke-width="1.5" fill="none"/>
+  <text x="234" y="22" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#cdd6f4">R</text>
+</svg>
