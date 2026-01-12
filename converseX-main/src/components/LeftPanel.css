@@ -1,0 +1,213 @@
+
+.left-panel {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: rgba(17, 24, 39, 0.95);
+  border-right: 1px solid rgba(148, 163, 184, 0.06);
+  padding: 20px 12px;
+  box-sizing: border-box;
+  z-index: 40;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/* Left panel scrollbar styling */
+.left-panel::-webkit-scrollbar {
+  width: 14px;
+}
+.left-panel::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.02);
+}
+.left-panel::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(137,180,250,0.28), rgba(116,199,236,0.18));
+  border-radius: 12px;
+}
+.left-panel::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgba(137,180,250,0.44), rgba(116,199,236,0.28));
+}
+
+/* firefox */
+.left-panel {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(137,180,250,0.28) rgba(0,0,0,0.02);
+}
+
+.left-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+}
+
+.panel-section-title {
+  color: #a6adc8;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.add-community-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #313244;
+  border: none;
+  color: #89b4fa;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-community-btn:hover {
+  background: #89b4fa;
+  color: #1e1e2e;
+  transform: scale(1.05);
+}
+
+.left-panel-top {
+  /* Sidebar sits here; let it size naturally and scroll if content overflows */
+  overflow: auto;
+  max-height: 40vh;
+}
+
+.left-panel-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+  min-height: 0;
+}
+
+.tabs-row {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.tab-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: transparent;
+  border: 1px solid rgba(148, 163, 184, 0.04);
+  color: #cdd6f4;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.tab-btn .tab-icon {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.02);
+  border-radius: 8px;
+}
+
+.tab-btn .tab-label { flex: 1; text-align: left; }
+
+.tab-btn.active {
+  background: rgba(137, 180, 250, 0.12);
+  color: #cdeaff;
+  border-color: rgba(137, 180, 250, 0.18);
+}
+
+.tab-content {
+  min-height: 0;
+  max-height: none;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.home-suboption {
+  padding: 8px 6px;
+}
+
+.suboption-title {
+  color: #a6adc8;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin: 8px 6px;
+  text-transform: uppercase;
+}
+
+.community-card {
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+  background: rgba(12,16,24,0.6);
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.02);
+}
+
+.community-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 56px;
+  align-items: center;
+}
+
+.community-mini {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: #1f2430;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #cdd6f4;
+  cursor: pointer;
+}
+
+.community-mini.active { box-shadow: 0 6px 18px rgba(137,180,250,0.12); background: #89b4fa; color: #0f172a; }
+
+.community-card-main { flex: 1; display: flex; flex-direction: column; gap: 8px; }
+
+.community-card-header h5 { margin: 0; color: #cdd6f4; font-size: 16px; }
+
+.channels-title { color: #9aa3c0; text-transform: uppercase; font-size: 11px; margin-top: 6px; }
+
+.channel-preview { display:flex; gap:8px; align-items:center; padding:8px 6px; border-radius:8px; background: rgba(255,255,255,0.01); }
+.channel-glyph-small { width:36px; height:36px; border-radius:8px; background: rgba(137,180,250,0.08); display:flex; align-items:center; justify-content:center; }
+.channel-name-small { color:#cdd6f4; font-weight:600; }
+.channel-desc-small { color: #9aa3c0; font-size: 12px; }
+
+.panel-heading h3 {
+  margin: 4px 0 0;
+  color: #cdd6f4;
+  font-size: 18px;
+}
+
+.panel-empty {
+  padding: 16px;
+  color: #a6adc8;
+}
+
+.panel-meetings {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.panel-route-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

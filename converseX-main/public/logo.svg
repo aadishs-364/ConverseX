@@ -1,0 +1,14 @@
+<!-- ConverseX Logo SVG -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" width="200" height="100">
+  <style>
+    .conversex-text { 
+      font-family: 'Brush Script MT', cursive; 
+      font-size: 200px; 
+      fill: #89b4fa; 
+      font-weight: bold;
+      font-style: italic;
+    }
+  </style>
+  <text x="50" y="350" class="conversex-text">converseX</text>
+  <line x1="0" y1="480" x2="1100" y2="20" stroke="#89b4fa" stroke-width="30"/>
+</svg>
