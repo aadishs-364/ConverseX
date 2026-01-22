@@ -3,6 +3,7 @@ import { AuthProvider, useAuth } from './context/AuthContext';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
+import JoinCommunity from './pages/JoinCommunity';
 import './App.css';
 
 // Protected Route wrapper
@@ -56,6 +57,10 @@ function App() {
                 <Register />
               </PublicRoute>
             }
+          />
+          <Route
+            path="/join/:communityId"
+            element={<JoinCommunity />}
           />
           <Route
             path="/dashboard/*"

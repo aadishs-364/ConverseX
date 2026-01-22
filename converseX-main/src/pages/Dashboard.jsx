@@ -147,6 +147,17 @@ const Dashboard = () => {
       setCommunities(fetchedCommunities);
 
       setSelectedCommunity((prev) => {
+        // Check if there's a pending community join from the join link
+        const locationState = location.state;
+        if (locationState?.joinedCommunity) {
+          const joinedComm = fetchedCommunities.find(c => c._id === locationState.joinedCommunity);
+          if (joinedComm) {
+            // Clear the state
+            navigate(location.pathname, { replace: true, state: {} });
+            return joinedComm;
+          }
+        }
+        
         if (prev && fetchedCommunities.some((community) => community._id === prev._id)) {
           return prev;
         }
@@ -157,7 +168,7 @@ const Dashboard = () => {
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [location, navigate]);
 
   const loadChannels = useCallback(async (communityId) => {
     try {
