@@ -22,9 +22,35 @@ const app = express();
 const server = http.createServer(app);
 
 // STEP 4: Setup Socket.IO for real-time features
+const socketAllowedOrigins = (process.env.CLIENT_URLS || process.env.CLIENT_URL || '')
+  .split(',')
+  .map((url) => url.trim())
+  .filter(Boolean);
+
 const io = new Server(server, {
   cors: {
-    origin: process.env.CLIENT_URL || 'http://localhost:5173',  // Frontend URL
+    origin: (origin, callback) => {
+      if (allowAllCors) {
+        console.warn('Socket CORS override: allowing all origins. Origin:', origin);
+        return callback(null, true);
+      }
+
+      if (
+        !origin ||
+        socketAllowedOrigins.includes(origin) ||
+        origin === 'http://localhost:5173' ||
+        origin === 'http://localhost:5174' ||
+        origin === 'http://127.0.0.1:5173' ||
+        origin === 'http://127.0.0.1:5174' ||
+        /https?:\/\/.*\.vercel\.app$/.test(origin) ||
+        /https?:\/\/.*\.onrender\.com$/.test(origin)
+      ) {
+        console.log('Socket CORS allowed origin:', origin || '(no origin)');
+        return callback(null, origin || true);
+      }
+      console.warn('Socket CORS blocked origin:', origin);
+      return callback(new Error('Not allowed by CORS'));
+    },
     methods: ['GET', 'POST'],     // Allowed methods
     credentials: true             // Allow cookies
   }
@@ -36,18 +62,40 @@ const io = new Server(server, {
 // Middleware are functions that process requests before they reach routes
 
 // 1. CORS - Allows frontend (React) to connect to backend
+// Supports comma-separated CLIENT_URLS for deployed frontends (e.g., Vercel preview + prod)
+const clientOrigins = (process.env.CLIENT_URLS || process.env.CLIENT_URL || '')
+  .split(',')
+  .map((url) => url.trim())
+  .filter(Boolean);
+
+// Optional kill-switch to allow all origins for hotfix/debug (set ALLOW_ALL_CORS=true in env)
+const allowAllCors = String(process.env.ALLOW_ALL_CORS || '').toLowerCase() === 'true';
+
 const allowedOrigins = [
-  process.env.CLIENT_URL || 'http://localhost:5173',
+  ...clientOrigins,
+  'https://conversex-backend.onrender.com', // allow backend origin for health checks
+  'http://localhost:5173',
   'http://localhost:5174',
   'http://127.0.0.1:5173',
   'http://127.0.0.1:5174'
 ];
 
+// Allow Vercel preview/prod domains without explicitly listing each one
+const isVercelOrigin = (origin) => Boolean(origin && origin.match(/https?:\/\/.*\.vercel\.app$/));
+const isRenderOrigin = (origin) => Boolean(origin && origin.match(/https?:\/\/.*\.onrender\.com$/));
+
 app.use(cors({
   origin: (origin, callback) => {
-    if (!origin || allowedOrigins.includes(origin)) {
+    if (allowAllCors) {
+      console.warn('CORS override: allowing all origins. Origin:', origin);
       return callback(null, true);
     }
+
+    if (!origin || allowedOrigins.includes(origin) || isVercelOrigin(origin) || isRenderOrigin(origin)) {
+      console.log('CORS allowed origin:', origin || '(no origin)');
+      return callback(null, true);
+    }
+    console.warn('CORS blocked origin:', origin);
     return callback(new Error('Not allowed by CORS'));
   },
   credentials: true,
