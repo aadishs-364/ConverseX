@@ -51,7 +51,9 @@ const corsOptions = {
   origin: (origin, callback) => {
     if (isAllowedOrigin(origin)) return callback(null, true);
     console.warn('CORS blocked origin:', origin);
-    return callback(new Error('Not allowed by CORS'));
+    const err = new Error('Not allowed by CORS');
+    err.status = 403; // Forbidden: this site is not on the allow-list
+    return callback(err);
   },
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
@@ -208,10 +210,12 @@ app.get('/', (req, res) => {
 // ==============================================
 // Catch any errors and send proper response
 app.use((err, req, res, _next) => {
-  console.error('❌ Error:', err.stack);
-  res.status(500).json({ 
-    error: 'Something went wrong!',
-    message: err.message 
+  const status = err.status || 500;
+  if (status >= 500) console.error('❌ Error:', err.stack); // log real crashes, not expected rejections
+  res.status(status).json({
+    error: status === 403 ? 'Forbidden' : 'Something went wrong!',
+    // Show internal error details only during local development
+    message: process.env.NODE_ENV === 'production' ? undefined : err.message
   });
 });
 
