@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment files — never commit
+.env
+.env.*
+!.env.example
+
+# Personal notes
+interview.md
