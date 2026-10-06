@@ -37,6 +37,8 @@ React (Vite) ──REST (Axios)──▶ Express API ──Mongoose──▶ Mon
 | Meetings | `POST /api/meetings`, `GET /api/meetings/community/:communityId`, `POST /api/meetings/:id/join` |
 
 ## Run locally
+**Prerequisites:** [Node.js](https://nodejs.org/) 20.19+ (or 22.12+) and a MongoDB database — either a local [MongoDB](https://www.mongodb.com/try/download/community) install or a free [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) cluster.
+
 ```bash
 git clone https://github.com/aadishs-364/ConverseX.git
 cd ConverseX

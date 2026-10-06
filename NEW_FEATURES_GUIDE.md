@@ -295,7 +295,6 @@ npm run dev
 
 ### Backend Files:
 - `server/models/Meeting.js` - Meeting database model
-- `server/models/File.js` - File database model (prepared)
 - `server/routes/meeting.js` - Meeting API endpoints
 - `server/server.js` - Updated with meeting routes
 
