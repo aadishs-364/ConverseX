@@ -37,6 +37,8 @@ const accountOptions = [
 ];
 
 const Dashboard = () => {
+  const location = useLocation();
+  const navigate = useNavigate();
   const { user, updateProfile, logout, savePreferences } = useAuth();
   const [communities, setCommunities] = useState([]);
   const [selectedCommunity, setSelectedCommunity] = useState(null);
@@ -192,8 +194,6 @@ const Dashboard = () => {
   }, [loadCommunities]);
 
   // redirect /dashboard to /dashboard/home so NavLink tabs have a sensible default
-  const location = useLocation();
-  const navigate = useNavigate();
   useEffect(() => {
     if (location.pathname === '/dashboard' || location.pathname === '/dashboard/') {
       navigate('/dashboard/home', { replace: true });
